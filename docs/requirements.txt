@@ -1,0 +1,40 @@
+# Documentation Build Requirements
+
+# Core Sphinx
+sphinx>=4.5.0
+sphinx-rtd-theme>=1.0.0
+
+# Markdown Support
+recommonmark>=0.7.1
+myst-parser>=0.18.0
+
+# Extensions
+sphinx-autodoc-typehints>=1.18.3
+sphinxcontrib-napoleon>=0.7
+sphinx-copybutton>=0.5.0
+sphinx-notfound-page>=0.8.3
+sphinx-git>=11.0.0
+sphinx-autobuild>=2021.3.14
+
+# For API documentation
+autodoc-pydantic>=1.8.0
+
+# For math support
+sphinx-math-dollar>=1.2.0
+
+# For API linking
+intersphinx>=0.0.1
+
+# For loading examples from files
+sphinx-codeautolink>=0.13.2
+
+# For documentation testing
+pytest>=7.0.0
+sphinx-testing>=1.0.1
+
+# Mock dependencies that may not be needed for the docs build
+mock>=4.0.3
+
+# For enhanced API docs
+sphinx-apidoc>=0.0.1
+

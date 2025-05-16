@@ -1,0 +1,39 @@
+# Core dependencies
+numpy>=1.19.0
+pandas>=1.1.0
+scikit-learn>=0.24.0
+pydantic>=1.8.0
+tqdm>=4.50.0
+requests>=2.25.0
+PyYAML>=5.4.0
+
+# CLI
+click>=8.0.0
+colorama>=0.4.4
+
+# Database
+sqlalchemy>=1.4.0
+pymongo>=3.11.0
+
+# RAG
+faiss-cpu>=1.7.0
+langchain>=0.0.200
+transformers>=4.15.0
+sentence-transformers>=2.1.0
+
+# ML Model Serving
+fastapi>=0.68.0
+uvicorn>=0.15.0
+flask>=2.0.0
+jinja2>=3.0.0
+
+# Security
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=3.2.0
+
+# Optional dependencies - uncomment as needed
+# tensorflow>=2.4.0  # For TensorFlow integration
+# torch>=1.7.0  # For PyTorch integration
+# torchvision>=0.8.0  # For PyTorch image models
+
