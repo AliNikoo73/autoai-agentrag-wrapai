@@ -1,5 +1,11 @@
 # AutoAI-AgentRAG
 
+[![Tests](https://github.com/AliNikoo73/autoai-agentrag-wrapai/actions/workflows/tests.yml/badge.svg)](https://github.com/AliNikoo73/autoai-agentrag-wrapai/actions/workflows/tests.yml)
+[![Documentation Status](https://readthedocs.org/projects/autoai-agentrag-wrapai/badge/?version=latest)](https://autoai-agentrag-wrapai.readthedocs.io/en/latest/?badge=latest)
+[![PyPI Version](https://img.shields.io/pypi/v/autoai-agentrag.svg)](https://pypi.org/project/autoai-agentrag/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Versions](https://img.shields.io/pypi/pyversions/autoai-agentrag.svg)](https://pypi.org/project/autoai-agentrag/)
+
 AutoAI-AgentRAG is an open-source PyPI library designed to enhance automation workflows by integrating AI Agents, Retrieval-Augmented Generation (RAG), and Machine Learning (ML). It empowers developers to build intelligent automation systems that efficiently manage complex tasks with minimal manual intervention.
 
 ## Features
@@ -43,7 +49,7 @@ pip install autoai-agentrag
 For development version:
 
 ```bash
-pip install git+https://github.com/autoai-agentrag/autoai-agentrag.git
+pip install git+https://github.com/AliNikoo73/autoai-agentrag-wrapai.git
 ```
 
 ## Quick Start
@@ -81,7 +87,7 @@ autoai-agentrag deploy --agent my-agent --port 8000
 
 ## Documentation
 
-For detailed documentation, visit [ReadTheDocs](https://autoai-agentrag.readthedocs.io/).
+For detailed documentation, visit [ReadTheDocs](https://autoai-agentrag-wrapai.readthedocs.io/).
 
 ## Contributing
 
